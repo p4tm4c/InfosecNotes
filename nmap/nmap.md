@@ -1,13 +1,13 @@
 # Nmap
 
-## Useful Scans
+## Scans
 
 Preliminary scan inspired by IppSec tutorials:
 ```
 nmap -sV -sC -oA [OUTPUT_FILENAME_PREFIX] [HOST]
 ```
 
-## Useful Flags
+## Flags
 
 Flag | Description
 --- | ---
