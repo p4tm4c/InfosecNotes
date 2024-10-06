@@ -18,7 +18,7 @@ Flag | Description
 `-sC` | Enable default scripts
 `-O` | Enable OS detection
 `-A` | Enable service version detection, default scripts, OS detection, and traceroute
-`-p [PORT/PORTS]` | Scan a specific port or ports (use a comma separated list and/or port ranges)
+`-p [PORT/PORTS]` | Scan a specific port or ports (comma separated list and/or port ranges)
 `-p-` | Scan all 65,535 TCP ports
 `-sU` | Scan the most common UDP ports
 `-oA [OUTPUT_FILENAME_PREFIX]` | Save scan output in all formats
