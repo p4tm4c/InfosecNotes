@@ -1,3 +1,8 @@
+Helpful preliminary scan inspired by IppSec tutorials
+```
+nmap -sV -sC -oA [OUTPUT_FILENAME_PREFIX] [HOST]
+```
+
 Command | Description
 --- | ---
 `nmap [HOST]` | Basic usage
@@ -15,5 +20,5 @@ Flag | Description
 `-p [PORT/PORTS]` | Scan a specific port or ports (use a comma separated list and/or port ranges)
 `-p-` | Scan all 65,535 TCP ports
 `-sU` | Scan the most common UDP ports
-`-oA [OUTPUT_FILENAME]` | Save scan output in all formats
+`-oA [OUTPUT_FILENAME_PREFIX]` | Save scan output in all formats
 
