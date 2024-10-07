@@ -1,6 +1,6 @@
 # Nmap
 
-## Scans
+## Commands
 
 ### Preliminary scans inspired by IppSec tutorials
 
@@ -29,4 +29,3 @@ Flag | Description
 `-p-` | Scan all 65,535 TCP ports
 `-sU` | Scan the most common UDP ports
 `-oA [OUTPUT_FILENAME_PREFIX]` | Save scan output in all formats
-

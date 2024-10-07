@@ -1,7 +1,23 @@
-Command | Description
---- | ---
-`smbclient -L [HOST]` | List shares with null/anonymous authentication
-`smbclient -L [HOST] -U [[DOMAIN/]USERNAME]` | List SMB shares on `[HOST]` and authenticate with `[USERNAME]` or `[DOMAIN/USERNAME]` (will likely be prompted for a password)
-`smbclient -L [HOST] -U [[DOMAIN/]USERNAME%PASSWORD]` | List SMB shares on `[HOST]` and authenticate with `[USERNAME]` or `[DOMAIN/USERNAME]` and `[PASSWORD]`
-`smbclient -L [HOST] -U [[DOMAIN/]USERNAME] -N` | List SMB shares on `[HOST]` and authenticate with `[USERNAME]` or `[DOMAIN/USERNAME]` and no password
+# smbclient
 
+## Commands
+
+List shares with null/anonymous authentication:
+```
+smbclient -L [HOST]
+```
+
+List shares and authenticate with `[USERNAME]` or `[DOMAIN/USERNAME]` (password prompt will follow):
+```
+smbclient -L [HOST] -U [[DOMAIN/]USERNAME]
+```
+
+List shares and authenticate with `[USERNAME]` or `[DOMAIN/USERNAME]` and no password (`-N`):
+```
+smbclient -L [HOST] -U [[DOMAIN/]USERNAME] -N
+```
+
+List shares and authenticate with `[USERNAME]` or `[DOMAIN/USERNAME]` and `[PASSWORD]`:
+```
+smbclient -L [HOST] -U [[DOMAIN/]USERNAME%PASSWORD] 
+```
