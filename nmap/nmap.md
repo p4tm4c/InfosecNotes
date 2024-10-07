@@ -1,4 +1,4 @@
-# Nmap
+# nmap
 
 ## Commands
 
