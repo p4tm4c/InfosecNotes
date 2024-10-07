@@ -1,3 +1,3 @@
 # InfosecNotes
 
-This is my collection of notes for penetration testing practice.
+This is a collection of reference notes for penetration testing practice.
