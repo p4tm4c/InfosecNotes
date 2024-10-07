@@ -2,7 +2,7 @@
 
 ## Scans
 
-### Preliminary scan inspired by IppSec tutorials
+### Preliminary scans inspired by IppSec tutorials
 
 For a single host:
 ```
