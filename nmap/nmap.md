@@ -2,9 +2,16 @@
 
 ## Scans
 
-Preliminary scan inspired by IppSec tutorials:
+### Preliminary scan inspired by IppSec tutorials
+
+For a single host:
 ```
 nmap -sV -sC -oA [OUTPUT_FILENAME_PREFIX] [HOST]
+```
+
+For multiple hosts contained in a list file:
+```
+nmap -sV -sC -oA [OUTPUT_FILENAME_PREFIX] -iL [INPUT_FILENAME]
 ```
 
 ## Flags
