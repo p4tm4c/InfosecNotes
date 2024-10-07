@@ -1,3 +1,3 @@
 # InfosecNotes
 
-This is my collection of notes used for penetration testing labs and practice.
+This is my collection of notes for penetration testing practice.

@@ -1,23 +1,23 @@
 # hydra
 
-## Commands
+## Usernames, passwords, and wordlists
 
-Attack a target with a specific username and password:
+Provide a specific username and password:
 ```
 hydra -l [USERNAME] -p [PASSWORD] [TARGET]
 ```
 
-Attack a target with a specific username and a list of possible passwords:
+Provide a specific username and a list of possible passwords:
 ```
 hydra -l [USERNAME] -P [PW_WORDLIST] [TARGET]
 ```
 
-Attack a target with a list of possible usernames and a list of possible passwords:
+Provide a list of possible usernames and a list of possible passwords:
 ```
 hydra -L [UN_WORDLIST] -P [PW_WORDLIST] [TARGET]
 ```
 
-Attack a target with a list of possible usernames and a specific password:
+Provide a list of possible usernames and a specific password:
 ```
 hydra -L UN_WORDLIST] -p [PASSWORD] [TARGET]
 ```
