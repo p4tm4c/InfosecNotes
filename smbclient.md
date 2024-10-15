@@ -2,9 +2,9 @@
 
 ## Commands
 
-List shares with null/anonymous authentication:
+List shares with anonymous authentication:
 ```
-smbclient -L [HOST]
+smbclient -L [HOST] -N
 ```
 
 List shares and authenticate with `[USERNAME]` or `[DOMAIN/USERNAME]` (password prompt will follow):
