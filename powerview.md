@@ -1,6 +1,6 @@
 # PowerView
 
-## General Info
+## General information
 
 "PowerView.ps1" file on GitHub (project no longer supported):
 ```
